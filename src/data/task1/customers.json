@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone number": "123-456-7890",
+      "credit_card": "****-****-****-1234",
+      "country": "United States"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "phone number": "987-654-3210",
+      "credit_card": "****-****-****-5678",
+      "country": "Canada"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "email": "michael.brown@email.com",
+      "phone number": "567-890-1234",
+      "credit_card": "****-****-****-9012",
+      "country": "Germany"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Jones",
+      "email": "sarah.jones@email.com",
+      "phone number": "321-098-7654",
+      "credit_card": "****-****-****-3456",
+      "country": "Australia"
+    }
+  ]
+}

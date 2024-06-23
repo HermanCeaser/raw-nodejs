@@ -1,0 +1,84 @@
+{
+  "reviews": [
+    {
+      "product_id": 1,
+      "rating": 5,
+      "title": "Great Bread!",
+      "message": "This Bimbo Bread is always fresh and delicious. A staple in my kitchen!",
+      "customer_id": 2,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 2,
+      "rating": 4,
+      "title": "Good Milk, Pricey Though",
+      "message": "Organic Valley Milk is high quality, but a bit expensive.  Tastes great though!",
+      "customer_id": 1,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 3,
+      "rating": 5,
+      "title": "Perfect Snacking Apples",
+      "message": "These Granny Smith Apples are crisp and fresh, perfect for a healthy and satisfying snack.",
+      "customer_id": 4,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 4,
+      "rating": 3,
+      "title": "Eggs Mostly Fresh, Some Broken",
+      "message": "Happy Hens Eggs were fresh overall, but a couple were broken in the package.",
+      "customer_id": 3,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 5,
+      "rating": 5,
+      "title": "Delicious Plant-Based Burgers",
+      "message": "Beyond Meat Burger Patties are amazing! They cook up perfectly and taste just like regular burgers.",
+      "customer_id": 5,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 2,
+      "rating": 4,
+      "title": "Healthy Milk Choice",
+      "message": "Organic Valley Milk is a great choice for those looking for a healthy milk option.  Would recommend!",
+      "customer_id": 2,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 1,
+      "rating": 4,
+      "title": "Good Bread, Would Buy Again",
+      "message": "Bimbo Bread is a good everyday bread option. Fresh and toasts well.",
+      "customer_id": 1,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 4,
+      "rating": 5,
+      "title": "Always Fresh Eggs",
+      "message": "Happy Hens Eggs are consistently fresh and high quality.  My go-to brand for eggs!",
+      "customer_id": 3,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 3,
+      "rating": 4,
+      "title": "Good Apples, Some Bruising",
+      "message": "Granny Smith Apples were mostly good, but a few had some bruising. Still tasted okay though.",
+      "customer_id": 5,
+      "created_at": "2024-06-24T00:00:00Z"
+    },
+    {
+      "product_id": 5,
+      "rating": 4,
+      "title": "Great Burger Alternative",
+      "message": "Beyond Meat Burger Patties are a tasty alternative to regular burgers.  Would definitely buy again.",
+      "customer_id": 4,
+      "created_at": "2024-06-24T00:00:00Z"
+    }
+  ]
+}

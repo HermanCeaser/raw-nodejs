@@ -1,0 +1,28 @@
+{
+    "products": [
+      {
+        "id": 2,
+        "name": "Organic Valley Milk",
+        "manufactured date": "2024-06-10T07:00:00Z",
+        "expiry date": "2024-07-15T00:00:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Granny Smith Apples (1kg)",
+        "manufactured date": "2024-06-18T14:15:00Z",
+        "expiry date": "2024-07-10T00:00:00Z"
+      },
+      {
+        "id": 4,
+        "name": "Happy Hens Eggs (Dozen)",
+        "manufactured date": "2024-06-21T11:00:00Z",
+        "expiry date": "2024-07-28T00:00:00Z"
+      },
+      {
+        "id": 5,
+        "name": "Beyond Meat Burger Patties (2 Pack)",
+        "manufactured date": "2024-06-12T10:30:00Z",
+        "expiry date": "2024-07-05T00:00:00Z"
+      }
+    ]
+}
