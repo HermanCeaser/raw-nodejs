@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { errorMessages } = require("./errors");
+const { dataPaths } = require('./utils/dataPaths');
 
 async function getProductInformationById(productId, dataPaths) {
   if (!Number.isInteger(productId) || productId < 0) {
@@ -55,24 +56,14 @@ async function getProductInformationById(productId, dataPaths) {
 
 (async () => {
   try {
-    const productsPath = path.resolve(__dirname, "./data/task1/products.json");
-    const customersPath = path.resolve(
-      __dirname,
-      "./data/task1/customers.json"
-    );
-    const imagesPath = path.resolve(__dirname, "./data/task1/images.json");
-    const reviewsPath = path.resolve(__dirname, "./data/task1/reviews.json");
-
-    const dataPaths = {
-      productsPath,
-      customersPath,
-      imagesPath,
-      reviewsPath,
-    };
-
+    
     const product = await getProductInformationById(2, dataPaths);
     console.log(JSON.stringify(product, null, 3));
   } catch (err) {
     console.error(err);
   }
 })();
+
+module.exports = {
+    getProductInformationById
+};
