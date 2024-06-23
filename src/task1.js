@@ -4,7 +4,7 @@ const { errorMessages } = require("./errors");
 const { dataPaths } = require('./utils/dataPaths');
 
 async function getProductInformationById(productId, dataPaths) {
-  if (!Number.isInteger(productId) || productId < 0) {
+  if (!Number.isInteger(productId) || productId <= 0) {
     throw new Error(errorMessages.productIdValidation);
   }
 
@@ -57,7 +57,7 @@ async function getProductInformationById(productId, dataPaths) {
 (async () => {
   try {
     
-    const product = await getProductInformationById(2, dataPaths);
+    const product = await getProductInformationById('2', dataPaths);
     console.log(JSON.stringify(product, null, 3));
   } catch (err) {
     console.error(err);
