@@ -36,7 +36,18 @@ async function getProductInformationById(productId, dataPaths) {
     const customer = customers.find(
       (customer) => customer.id === review.customer_id
     ); // Find associated customer
-    return { ...review, customer }; // Combine review and customer data
+    return { 
+        id: review.id,
+        message: review.message,
+        created_at: review.created_at,
+        rating: review.rating,
+        customer: {
+            id: customer.id,
+            name: customer.name,
+            email: customer.email,
+            phone: customer['phone number']
+        }
+    }; // Combine review and customer data
   });
 
   return product;
